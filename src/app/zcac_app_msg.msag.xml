@@ -3,22 +3,16 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <T100A>
-    <ARBGB>ZCAC_MODEL_MSG</ARBGB>
+    <ARBGB>ZCAC_APP_MSG</ARBGB>
     <MASTERLANG>E</MASTERLANG>
-    <STEXT>Model messages</STEXT>
+    <STEXT>Application messages</STEXT>
    </T100A>
    <T100>
     <T100>
      <SPRSL>E</SPRSL>
-     <ARBGB>ZCAC_MODEL_MSG</ARBGB>
+     <ARBGB>ZCAC_APP_MSG</ARBGB>
      <MSGNR>000</MSGNR>
-     <TEXT>Cannot create model of class &apos;&amp;1&apos;. Error &amp;2</TEXT>
-    </T100>
-    <T100>
-     <SPRSL>E</SPRSL>
-     <ARBGB>ZCAC_MODEL_MSG</ARBGB>
-     <MSGNR>001</MSGNR>
-     <TEXT>Model &apos;&amp;1&apos; is unknown</TEXT>
+     <TEXT>Cannot create controller instance of class &apos;&amp;1&apos;. Error &amp;2</TEXT>
     </T100>
    </T100>
   </asx:values>

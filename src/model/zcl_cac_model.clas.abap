@@ -1,16 +1,16 @@
-class ZCL_CAC_MODEL definition
-  public
-  inheriting from ZCL_CAC_MODEL_ABS
-  create private
+CLASS zcl_cac_model DEFINITION
+  PUBLIC
+  INHERITING FROM zcl_cac_model_abs
+  CREATE PRIVATE
 
-  global friends ZCL_CAC_MODEL_COMMON .
+  GLOBAL FRIENDS zcl_cac_model_common .
 
-public section.
-protected section.
-private section.
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS ZCL_CAC_MODEL IMPLEMENTATION.
+CLASS zcl_cac_model IMPLEMENTATION.
 ENDCLASS.

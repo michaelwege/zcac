@@ -1,18 +1,23 @@
-interface ZIF_CAC_MODEL
-  public .
+INTERFACE zif_cac_model
+  PUBLIC .
 
+  METHODS set_data
+    IMPORTING
+      !ir_data TYPE REF TO data
+      !it_fcat TYPE lvc_t_fcat OPTIONAL .
 
-  methods SET_DATA
-    importing
-      !IR_DATA type ref to DATA
-      !IT_FCAT type LVC_T_FCAT optional .
-  methods SET_FCAT
-    importing
-      !IT_FCAT type LVC_T_FCAT .
-  methods GET_DATA
-    returning
-      value(R_DATA) type ref to DATA .
-  methods GET_FCAT
-    returning
-      value(RT_FCAT) type LVC_T_FCAT .
-endinterface.
+  METHODS set_fcat
+    IMPORTING
+      !it_fcat TYPE lvc_t_fcat .
+
+  METHODS get_data
+    RETURNING
+      VALUE(r_data) TYPE REF TO data .
+
+  METHODS get_fcat
+    RETURNING
+      VALUE(rt_fcat) TYPE lvc_t_fcat .
+
+  METHODS free.
+
+ENDINTERFACE.
