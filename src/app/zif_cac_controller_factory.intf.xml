@@ -10,6 +10,14 @@
     <STATE>1</STATE>
     <UNICODE>X</UNICODE>
    </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CAC_CONTROLLER_FACTORY</CLSNAME>
+     <CMPNAME>CREATE_CONTROLLER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create a controller instance, based on the class name</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
   </asx:values>
  </asx:abap>
 </abapGit>

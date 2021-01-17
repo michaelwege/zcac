@@ -48,9 +48,7 @@ CLASS zcx_cac_model IMPLEMENTATION.
 
 
   METHOD constructor ##ADT_SUPPRESS_GENERATION.
-    CALL METHOD super->constructor
-      EXPORTING
-        previous = previous.
+    super->constructor( previous = previous ).
     me->error_msg = error_msg .
     me->clsname = clsname .
     me->model_name = model_name.
