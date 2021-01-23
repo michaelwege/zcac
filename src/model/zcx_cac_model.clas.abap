@@ -26,9 +26,19 @@ CLASS zcx_cac_model DEFINITION
         attr3 TYPE scx_attrname VALUE '',
         attr4 TYPE scx_attrname VALUE '',
       END OF unknown_model .
+    CONSTANTS:
+      BEGIN OF class_no_intf,
+        msgid TYPE symsgid VALUE 'ZCAC_MODEL_MSG',
+        msgno TYPE symsgno VALUE '002',
+        attr1 TYPE scx_attrname VALUE 'CLSNAME',
+        attr2 TYPE scx_attrname VALUE 'INTFNAME',
+        attr3 TYPE scx_attrname VALUE '',
+        attr4 TYPE scx_attrname VALUE '',
+      END OF class_no_intf .
 
     DATA error_msg TYPE string .
     DATA clsname TYPE seoclsname .
+    DATA intfname TYPE seoclsname .
     DATA model_name TYPE zif_cac_model_manager=>ty_model_name.
 
     METHODS constructor
@@ -37,6 +47,7 @@ CLASS zcx_cac_model DEFINITION
         !previous   LIKE previous OPTIONAL
         !error_msg  TYPE string OPTIONAL
         !clsname    TYPE seoclsname OPTIONAL
+        !intfname   TYPE seoclsname OPTIONAL
         !model_name TYPE zif_cac_model_manager=>ty_model_name OPTIONAL.
   PROTECTED SECTION.
   PRIVATE SECTION.
@@ -51,6 +62,7 @@ CLASS zcx_cac_model IMPLEMENTATION.
     super->constructor( previous = previous ).
     me->error_msg = error_msg .
     me->clsname = clsname .
+    me->intfname = intfname .
     me->model_name = model_name.
     CLEAR me->textid.
     IF textid IS INITIAL.

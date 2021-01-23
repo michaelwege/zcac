@@ -20,6 +20,12 @@
      <MSGNR>001</MSGNR>
      <TEXT>Model &apos;&amp;1&apos; is unknown</TEXT>
     </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCAC_MODEL_MSG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Class &apos;&amp;1&apos; does not implement interface &apos;&amp;2&apos;</TEXT>
+    </T100>
    </T100>
   </asx:values>
  </asx:abap>

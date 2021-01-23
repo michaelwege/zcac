@@ -5,7 +5,7 @@
    <VSEOINTERF>
     <CLSNAME>ZIF_CAC_MODEL</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Model Interface</DESCRIPT>
+    <DESCRIPT>Model interface</DESCRIPT>
     <EXPOSURE>2</EXPOSURE>
     <STATE>1</STATE>
     <UNICODE>X</UNICODE>
@@ -15,25 +15,25 @@
      <CLSNAME>ZIF_CAC_MODEL</CLSNAME>
      <CMPNAME>GET_DATA</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>Get data</DESCRIPT>
+     <DESCRIPT>Retrieve the data from the instance</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>ZIF_CAC_MODEL</CLSNAME>
      <CMPNAME>GET_FCAT</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>Get fieldcatalog</DESCRIPT>
+     <DESCRIPT>Retrieve the ALV fieldcatalog</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>ZIF_CAC_MODEL</CLSNAME>
      <CMPNAME>SET_DATA</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>Set data</DESCRIPT>
+     <DESCRIPT>Set the data</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>ZIF_CAC_MODEL</CLSNAME>
      <CMPNAME>SET_FCAT</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>Set fieldcatalog</DESCRIPT>
+     <DESCRIPT>Define the ALV fieldcatalog for the data</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>

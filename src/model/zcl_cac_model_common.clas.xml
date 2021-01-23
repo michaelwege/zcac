@@ -5,7 +5,7 @@
    <VSEOCLASS>
     <CLSNAME>ZCL_CAC_MODEL_COMMON</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Common model functions</DESCRIPT>
+    <DESCRIPT>Common CAC model functions</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
@@ -16,7 +16,13 @@
      <CLSNAME>ZCL_CAC_MODEL_COMMON</CLSNAME>
      <CMPNAME>FACTORY_MODEL</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>Factory method for model</DESCRIPT>
+     <DESCRIPT>Create model instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CAC_MODEL_COMMON</CLSNAME>
+     <CMPNAME>FACTORY_MODEL_MANAGER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create model manager instance</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>ZCL_CAC_MODEL_COMMON</CLSNAME>
@@ -28,7 +34,7 @@
      <CLSNAME>ZCL_CAC_MODEL_COMMON</CLSNAME>
      <CMPNAME>SET_MODEL_CLSNAME</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>Set classname for models</DESCRIPT>
+     <DESCRIPT>Set model class name</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>
